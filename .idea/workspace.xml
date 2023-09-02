@@ -5,38 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7048034-73cc-4eab-ac48-36c27bfecf19" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/MyBoardGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/AbstractBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/ComposableBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/ExtensibleBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/FixedSizeBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/tile/GenericTile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/tile/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/tile/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/tile/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/tile/TwoDimensionalPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/tile/TwoDimensionalTile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/gs/CookingRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/gs/MatchingString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/gs/QuickSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/gs/SquareRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/gs/WeddingAndHats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/list/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/list/MyPlatesPiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/list/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/ranges/Range.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/ranges/RangeFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/ranges/RoadPaint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/practice/games/board/DirectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/practice/games/board/ExtensibleBoardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/practice/games/board/FixedSizeBoardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/practice/games/board/tile/GenericTileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/practice/list/LinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/practice/list/MyPlatesPilesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/misc/INumberOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/misc/NumberOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/practice/misc/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/misc/BinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,14 +86,30 @@
       <recent name="com.test.practice.list" />
       <recent name="com.test.practice" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test.practice.gs" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'com.test.practice'">
-    <configuration name="MatchingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.practice.gs.MatchingString" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.practice.misc.BinarySearch" />
       <module name="CodingPractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.practice.gs.*" />
+          <option name="PATTERN" value="com.test.practice.misc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatchingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.practice.misc.MatchingString" />
+      <module name="CodingPractice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.practice.misc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,41 +118,17 @@
       </method>
     </configuration>
     <configuration name="QuickSelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.practice.gs.QuickSelect" />
+      <option name="MAIN_CLASS_NAME" value="com.test.practice.misc.QuickSelect" />
       <module name="CodingPractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.practice.gs.*" />
+          <option name="PATTERN" value="com.test.practice.misc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="LinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.test.practice.list.LinkedListTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
     </configuration>
     <configuration name="LinkedListTest.reverse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -215,19 +179,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.MatchingString" />
       <item itemvalue="Application.QuickSelect" />
-      <item itemvalue="Gradle.LinkedListTest" />
       <item itemvalue="Gradle.LinkedListTest.reverse" />
       <item itemvalue="Gradle.Tests in 'com.test.practice'" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Gradle.Tests in 'com.test.practice'" />
         <item itemvalue="Application.MatchingString" />
         <item itemvalue="Application.QuickSelect" />
         <item itemvalue="Gradle.LinkedListTest.reverse" />
-        <item itemvalue="Gradle.LinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +211,7 @@
       <workItem from="1693461709977" duration="2840000" />
       <workItem from="1693476967174" duration="5043000" />
       <workItem from="1693484829711" duration="29673000" />
+      <workItem from="1693633097433" duration="3107000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -256,11 +221,38 @@
       <option name="project" value="LOCAL" />
       <updated>1692889475044</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1693633240392</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693633240392</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1693633566812</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693633566812</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />

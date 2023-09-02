@@ -6,25 +6,22 @@ import java.util.List;
 public class BinarySearch {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 9, 11, 16, 19);
-        int i ;
-        i= binarySearch(list, 16);
-        if (i == 6) {
-            System.out.println("Pass");
-        } else {
-            System.out.println("Fail");
-        }
+        NumberOperations<Integer> numOp= new NumberOperations<>();
 
-         i = binarySearch(list, 1);
-        if (i == 0) {
-            System.out.println("Pass");
+        Integer index1 = numOp.binarySearch(16, Integer::compare, 1, 2, 3, 4, 9, 11, 16, 19);
+        System.out.println("index1 = " + index1);
+        System.out.println("testMe(list,16) = " + testMe(list, 16));
+        System.out.println("testMe(list,1) = " + testMe(list, 1));
+        System.out.println("testMe(list,9) = " + testMe(list, 9));
+
+    }
+
+    private static String testMe(List<Integer> list, int search) {
+        int i= binarySearch(list, search);
+        if (list.get(i) == search) {
+           return "Pass";
         } else {
-            System.out.println("Fail");
-        }
-        i = binarySearch(list, 9);
-        if (i == 4) {
-            System.out.println("Pass");
-        } else {
-            System.out.println("Fail");
+           return "Fail";
         }
     }
 
