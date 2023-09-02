@@ -1,4 +1,4 @@
-package com.test.practice.gs;
+package com.test.practice.misc;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.test.practice.gs;
+package com.test.practice.misc;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

@@ -1,7 +1,4 @@
-package com.test.practice.gs;
-
-import java.util.ArrayList;
-import java.util.Scanner;
+package com.test.practice.misc;
 
 public class QuickSelect {
     public static void main(String[] args) {
