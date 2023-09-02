@@ -4,23 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7048034-73cc-4eab-ac48-36c27bfecf19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/ITuple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/TestMeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/Tuple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/practice/DictionaryTest.java" afterDir="false" />
+    <list default="true" id="e7048034-73cc-4eab-ac48-36c27bfecf19" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/MyBoardGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/AbstractBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/ComposableBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/ExtensibleBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/FixedSizeBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/tile/GenericTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/tile/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/tile/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/tile/Tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/tile/TwoDimensionalPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/games/board/tile/TwoDimensionalTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/gs/CookingRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/gs/MatchingString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/gs/QuickSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/gs/SquareRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/gs/WeddingAndHats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/list/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/list/MyPlatesPiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/list/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/ranges/Range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/ranges/RangeFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/practice/ranges/RoadPaint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/practice/games/board/DirectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/practice/games/board/ExtensibleBoardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/practice/games/board/FixedSizeBoardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/practice/games/board/tile/GenericTileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/practice/list/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/practice/list/MyPlatesPilesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -90,17 +106,22 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.test.practice.list" />
+      <recent name="com.test.practice.ranges" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.test.practice.list" />
       <recent name="com.test.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DictionaryTest">
-    <configuration name="TestMeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.practice.mymap.TestMeMain" />
+  <component name="RunManager" selected="Gradle.Tests in 'com.test.practice'">
+    <configuration name="MatchingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.practice.gs.MatchingString" />
       <module name="CodingPractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.practice.mymap.*" />
+          <option name="PATTERN" value="com.test.practice.gs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,7 +129,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DictionaryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuickSelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.practice.gs.QuickSelect" />
+      <module name="CodingPractice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.practice.gs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -121,7 +155,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.test.practice.DictionaryTest&quot;" />
+            <option value="&quot;com.test.practice.list.LinkedListTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -132,7 +166,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DictionaryTest.containsKey" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LinkedListTest.reverse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -145,7 +179,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.test.practice.DictionaryTest.containsKey&quot;" />
+            <option value="&quot;com.test.practice.list.LinkedListTest.reverse&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -156,7 +190,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DictionaryTest.putMultiple" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'com.test.practice'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -169,7 +203,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.test.practice.DictionaryTest.putMultiple&quot;" />
+            <option value="&quot;com.test.practice.*&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,37 +214,20 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DictionaryTest.putNullKey" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.test.practice.DictionaryTest.putNullKey&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Application.MatchingString" />
+      <item itemvalue="Application.QuickSelect" />
+      <item itemvalue="Gradle.LinkedListTest" />
+      <item itemvalue="Gradle.LinkedListTest.reverse" />
+      <item itemvalue="Gradle.Tests in 'com.test.practice'" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DictionaryTest" />
-        <item itemvalue="Gradle.DictionaryTest.containsKey" />
-        <item itemvalue="Gradle.DictionaryTest.putMultiple" />
-        <item itemvalue="Application.TestMeMain" />
-        <item itemvalue="Gradle.DictionaryTest.putNullKey" />
+        <item itemvalue="Gradle.Tests in 'com.test.practice'" />
+        <item itemvalue="Application.MatchingString" />
+        <item itemvalue="Application.QuickSelect" />
+        <item itemvalue="Gradle.LinkedListTest.reverse" />
+        <item itemvalue="Gradle.LinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -223,14 +240,36 @@
       <option name="presentableId" value="Default" />
       <updated>1692700307746</updated>
       <workItem from="1692700308763" duration="21886000" />
+      <workItem from="1692889275848" duration="5563000" />
+      <workItem from="1692955508161" duration="638000" />
+      <workItem from="1692956696881" duration="8394000" />
+      <workItem from="1693210515102" duration="19361000" />
+      <workItem from="1693461709977" duration="2840000" />
+      <workItem from="1693476967174" duration="5043000" />
+      <workItem from="1693484829711" duration="29673000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1692889475044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692889475044</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CodingPractice$Tests_in__com_test_practice_.ic" NAME="Tests in 'com.test.practice' Coverage Results" MODIFIED="1693557069235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/CodingPractice$DictionaryTest_containsKey.ic" NAME="DictionaryTest.containsKey Coverage Results" MODIFIED="1692728287747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/CodingPractice$DictionaryTest.ic" NAME="DictionaryTest Coverage Results" MODIFIED="1692729252609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CodingPractice$Tests_in__com_test_practice_games_board_.ic" NAME="Tests in 'com.test.practice.games.board' Coverage Results" MODIFIED="1693485902033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
